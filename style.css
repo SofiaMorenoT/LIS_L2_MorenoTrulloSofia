@@ -4,19 +4,11 @@
     display:flex; /*Organiza el logo con el titulo*/
     justify-content:center;/*centra horizontalmente los elementos*/
     align-items:center;/*Centra verticalmente los elementos*/
-    border:3px solid #0D47A1;/*Borde para el header*/
-    background-color:#1565C0;/*Color para el header*/
-    color:#D6F0FF;/*Color para el título del header*/
+    border:3px solid #1a98a1;/*Borde para el header*/
+    background-color:#43f1fa;/*Color para el header*/
+    color:#040404;/*Color para el título del header*/
     gap:15px;/*Espacio entre los elementos del header*/
-}
-
-
-/*Esta sección se encarga de centrar el texto del header, dale color y 
-desplazar el título hacia la derecha*/
-#header-titulo{
-    text-align: center;
-    color:#D6F0FF;
-    padding-left: 400px;
+    font-family:'Courier New', Courier, monospace;
 }
 
 
@@ -25,13 +17,13 @@ Los bordes de cada uno se definen azules y redondeados (5px), el fondo de azul
 claro y el texto alineado a la derecha. La letra es de tipo Arial, sans-serif 
 y el color del texto se define en un tono gris formal. se define un espacio interno a la derecha */
 #Doctor1, #Doctor6 {
-    border:3px solid #1E88E5;
-    border-radius: 5px ;
-    background-color:#D6F0FF;
+    border:5px solid #A03D60;
+    border-radius: 20px ;
+    background-color:#d44376;
     text-align: right;
-    padding-right: 20px;
-    font-family: Arial, sans-serif;
-    color: #263238;
+    padding-right: 30px;
+    font-family:sans-serif;
+    color: #3b0616;
 
 
 }
@@ -42,36 +34,35 @@ claro y el texto centrado. La letra es de tipo Arial, sans-serif
 y el color del texto se define en un tono gris formal. Se define un padding- right
 para dejar espacio entre el centro y el borde derecho  */
 #Doctor2, #Doctor5 {
-    border:3px solid #2E7D32;
-    border-radius: 5px ;
-    background-color:#DFF7E2;
+    border:5px solid #8BBF55;
+    border-radius: 20px ;
+    background-color:#abdf43;
     text-align: center;
-    padding-right: 3px;
-    font-family: Arial,sans-serif;
-    color: #263238;
+    font-family:sans-serif;
+    color: #072212;
 
 }
 /* Estilo para el doctor 3 y el 4. Se definen los bordes morado y el fondo claro
 . El texto se alinea a la izquierda y se define un espacio interno a la izquierda. color de la letra del texto
 gris claro y tipo de letra igual a la de los anteriores*/
 #Doctor3, #Doctor4 {
-    border:3px solid #5E35B1;
-    border-radius: 5px ;
-    background-color:#E8E3FF;
+    border:5px solid #7A9BBF;
+    border-radius: 20px ;
+    background-color:#5c9dec;
     text-align: left;
-    padding-left: 20px;
-    font-family: Arial, sans-serif;
-    color: #263238;
+    padding-left: 30px;
+    font-family:sans-serif;
+    color: #090653;
 }
 
 /*Se define el estilo de los botones, con los bordes oscuros y el fondo morado. Se 
 define un radio de 5pz y el color del texto. El tamaño de la letra 15px y el espacio
 superior de 10px*/
 .boton{
-    border:3px solid #010a069d;
+    border:3px solid #0a38dc9d;
     border-radius: 5px ;
-    background-color:#5b3bc7;
-    color:#050505;
+    background-color:#2c0d92;
+    color:#ece5e5;
     font-size:15px;
     margin-top:10px;
     
@@ -88,8 +79,7 @@ superior de 10px*/
 
 /* Fondo general de la página. y se elimina el margen por defecto*/
 body{
-     background-color:#bcd7f1;
-     margin:0;
+     background-color:#c3e0fc;
 }
 
 /*Se define el grid-container.Se definen bordes y fondo y se activa el CSS
@@ -97,29 +87,32 @@ grid. Se definen 3 columnas iguales y indica para usar el 90% del ancho de la pa
 cierra el contenedor horizontalmente*/
 
 .grid-container{
-    border:2px solid #c8d6df;
+    border:0px solid #3debf5;
     border-radius: 10px;
-    background-color:#bcd7f1;
+    background-color:#9ef8fd;
     display:grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    gap:20px;
-    width:90%;
+    grid-template-columns: 32% 32% 32%;
+    gap:30px;
+    width:100%;
     margin:20px auto;
 }
 
 
 #descripcion{
     text-align: center;/*centra el texto de la descripción*/
+    font-family:'Courier New', Courier, monospace;
+    color:#0a203a
 }
 
 /*Se le da estilo a la sección del footer. El borde se define verde
 y el fondo verde claro. tamaño pequeño de texto y alineación a la izquierda*/
 #footer{
-    border:3px solid #0ac7a1;
-    background-color:#98de9d;
+    border:3px solid #1bbef9;
+    background-color:#6bdcfe;
     font-size: 12px;
     font-family: sans-serif;
     text-align: left;
+    font-size: 15px;
     padding-left: 20px;
     padding-bottom: 20px;
 }
